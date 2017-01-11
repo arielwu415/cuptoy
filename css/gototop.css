@@ -1,0 +1,30 @@
+.gototop {
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  -webkit-animation-name: slidein;
+  -moz-animation-name: slidein;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -moz-animation-direction: alternate;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    padding-bottom: 0px;
+  }
+
+  to {
+    padding-bottom: 10px;
+  }
+}
+
+@-moz-keyframes slidein {
+  from {
+    padding-bottom: 0px;
+  }
+
+  to {
+    padding-bottom: 10px;
+  }
+}

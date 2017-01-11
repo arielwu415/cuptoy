@@ -1,0 +1,181 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    /*padding-top: 70px;*/ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*background-color: #ffffed;*/
+}
+
+#background{
+    background: url(../images/background.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+#navitem{
+    font-family: Microsoft JhengHei;
+    font-size: 18px;
+}
+
+#navitem li{
+    text-align: center;
+    height: 45px;
+    padding-bottom: 12px;
+    margin: 8px 0 8px 8px;
+    border-radius: 4px;
+}
+
+#navitem li:hover{
+    background-color: rgba(0, 140, 150, 0.3);
+}
+
+.page-header{
+	font-family: Microsoft JhengHei;
+    background-color: #ff8792;
+    /*color: #b30d1c;*/
+    color: white;
+    border-radius: 6px;
+}
+
+h4, p{
+    font-family: Microsoft JhengHei;
+}
+
+.img-responsive{
+	margin: auto;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+/*.portfolio-item:hover{
+    opacity: 0.5;
+}*/
+
+/*.hover {position:relative;}*/
+
+.hover img {
+  /*position: absolute;*/
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+
+/*.hover img:nth-of-type(2):hover{
+  opacity: 0.5;
+}*/
+
+.hover img:hover{
+  opacity: 0.5;
+}
+
+a .thisone{
+    opacity: 0.5;
+}
+/*#backtop{
+    width: 100px;
+    height: 183px;
+    position: relative;
+/*    bottom: -150px;*/
+/*    left: 90%;
+    float: right;
+}*/
+/*.rabbit img{
+    width: 10%
+}*/
+
+/*.rabbit img:hover{
+    margin-top: -10px;
+    padding-bottom: 10px;
+}*/
+
+.seemore{
+    text-decoration: none;
+    font-family: Microsoft JhengHei;
+    color: #88141e;
+}
+
+.seemore:hover{
+    text-decoration: none;
+    color: #88141e;
+    opacity: 0.6;
+}
+
+#backtop img{
+    width: 100px;
+    margin-bottom: -90px;
+    float: right;
+}
+
+#backtop img:hover{
+    margin-top: -10px;
+    margin-bottom: -80px;
+}
+
+footer {
+    margin: 90px 0 50px 0;
+}
+
+.imgRWD{
+    margin: -40px 0 0 -20px;
+    width: 250px;
+}
+
+.thispage{
+    text-align: center;
+    height: 45px;
+    border-radius: 4px;
+    background-color: rgba(0, 140, 150, 0.3);
+}
+
+ .RWD{
+        margin: 20px 0 0 0;
+        width: 75%;
+    }
+
+.changePic{
+    position:relative;
+    left: 20%;
+
+}
+
+.changePic img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+
+/*@media (max-width: 1200px) {
+
+    .no{
+        display: none;
+    }
+}*/
+@media (max-width: 320px) {
+
+    .imgRWD{
+        width: 200px;
+        margin-top: -36px;
+    }
+}
+
+@media (max-width: 992px) {
+
+/*    .imgRWD{
+        width: 200px;
+        margin-top: -36px;
+    }*/
+    .RWD{
+        margin: auto;
+        margin-top: 20px;
+    }
+}
