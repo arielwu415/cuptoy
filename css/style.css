@@ -8,7 +8,7 @@ body{
 	background: url(../images/img_enter_background.jpg) 50% 0 no-repeat fixed;
 	background-size: cover;
 	width: 100%;
-	height: 1200px;
+	height: 1000px;
 	/*color: white;*/
     margin: 0 auto;
     padding: 0;
@@ -18,7 +18,7 @@ body{
 	background: url(../images/img_enter_front.png) 50% 0 no-repeat fixed;
 	background-size: cover;
 	width: 100%;
-	height: 1200px;
+	height: 1000px;
 	margin: 0;
 	padding: 0;
 	position: absolute;
